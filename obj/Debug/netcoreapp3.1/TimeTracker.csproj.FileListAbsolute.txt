@@ -1,0 +1,13 @@
+C:\Users\Barbe Rousse\Documents\Programming\TimeTracker\obj\Debug\netcoreapp3.1\TimeTracker.csprojAssemblyReference.cache
+C:\Users\Barbe Rousse\Documents\Programming\TimeTracker\obj\Debug\netcoreapp3.1\TimeTracker.AssemblyInfoInputs.cache
+C:\Users\Barbe Rousse\Documents\Programming\TimeTracker\obj\Debug\netcoreapp3.1\TimeTracker.AssemblyInfo.cs
+C:\Users\Barbe Rousse\Documents\Programming\TimeTracker\obj\Debug\netcoreapp3.1\TimeTracker.csproj.CoreCompileInputs.cache
+C:\Users\Barbe Rousse\Documents\Programming\TimeTracker\bin\Debug\netcoreapp3.1\TimeTracker.exe
+C:\Users\Barbe Rousse\Documents\Programming\TimeTracker\bin\Debug\netcoreapp3.1\TimeTracker.deps.json
+C:\Users\Barbe Rousse\Documents\Programming\TimeTracker\bin\Debug\netcoreapp3.1\TimeTracker.runtimeconfig.json
+C:\Users\Barbe Rousse\Documents\Programming\TimeTracker\bin\Debug\netcoreapp3.1\TimeTracker.runtimeconfig.dev.json
+C:\Users\Barbe Rousse\Documents\Programming\TimeTracker\bin\Debug\netcoreapp3.1\TimeTracker.dll
+C:\Users\Barbe Rousse\Documents\Programming\TimeTracker\bin\Debug\netcoreapp3.1\TimeTracker.pdb
+C:\Users\Barbe Rousse\Documents\Programming\TimeTracker\obj\Debug\netcoreapp3.1\TimeTracker.dll
+C:\Users\Barbe Rousse\Documents\Programming\TimeTracker\obj\Debug\netcoreapp3.1\TimeTracker.pdb
+C:\Users\Barbe Rousse\Documents\Programming\TimeTracker\obj\Debug\netcoreapp3.1\TimeTracker.genruntimeconfig.cache
