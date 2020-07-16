@@ -1,9 +1,14 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using System.IO;
 
 namespace TimeTracker
 {
+
+
     class Program
     {
         static void Main(string[] args)
@@ -22,8 +27,52 @@ namespace TimeTracker
 
                 if(userMessage == "quit")
                     KeepAppRunning = false;
+
+                TimeRepository timeRepository = new TimeRepository("C:\\Users\\Barbe Rousse\\Documents\\_TimeSpentOnProjects\\Today.txt");
+                timeRepository.Save(new TimeSpentOnProject() {StartTime = DateTime.Now, EndTime = DateTime.Now, "FileWriter"});
             }
         }
+    }
+
+    class TimeRepository
+    {   
+        private string PathToFile;
+        public TimeRepository( string pathToFile )
+        {
+            PathToFile = pathToFile;
+
+            JSonSerializer = new JSonSerializer();
+        }
+
+        public void Save(string command)
+        {
+            using (FileStream fileStream = new FileStream(PathToFile, FileMode.OpenOrCreate))
+            using (StreamWriter streamWriter = new StreamWriter(fileStream))
+            {
+                /* Write at the end of the file
+                var endOfFile = fileStream.Length;
+                fileStream.Seek(endOfFile, SeekOrigin.Begin );
+                */
+                streamWriter.WriteLine(command);
+            }
+        }
+    }
+
+    class WorkDay
+    {
+        public List<TimeSpentOnProject> TimeSpentOnProjects;
+    }
+
+    class TimeSpentOnProject
+    {
+        public DateTime StartTime;
+        public DateTime EndTime;
+        public string project;
+    }
+
+    class TimeMapper
+    {
+
     }
 
     class GuiDrawer
